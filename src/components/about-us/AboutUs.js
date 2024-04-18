@@ -4,16 +4,16 @@ import SectionTitle from "../section-title/SectionTitle";
 
 const CounterItem = [
     {
-        number: "250",
-        title: "Project Done"
+        number: "1200",
+        title: "assignments"
     },
     {
         number: "280",
-        title: "happy client"
+        title: "clients"
     },
     {
-        number: "240",
-        title: "Our employees"
+        number: "350",
+        title: "employees"
     }
 ];
 
@@ -35,7 +35,7 @@ const AboutUs = () => {
                                         CounterItem.map((data, i) => (
                                             <div key={i} className="counting-inner">
                                                 <div className="countup-text">
-                                                    <h2 className="counter"><CountUp end={data.number} duration={2.5} delay={0.9} start={0} /></h2>
+                                                    <h2 className="counter"><CountUp end={data.number} duration={0.5} delay={0.9} start={0} />+</h2>
                                                     <h4>{data.title}</h4>
                                                 </div>
                                             </div>

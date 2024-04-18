@@ -24,14 +24,14 @@ const Home = () => {
         </Helmet>
         <Layout>
           <HeroSlider />
-          <AboutUs />
           <WhyChooseUs />
           <HomeServices />
-          <ProjectsTypeOne />
-          <Testimonial />
-          <TeamMembers />
           <Faq />
-          <HomePost />
+          <AboutUs />
+          <Testimonial />
+          <ProjectsTypeOne />
+          {/* <TeamMembers />
+          <HomePost /> */}
         </Layout>
       </>
     );

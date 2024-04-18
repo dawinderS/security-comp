@@ -12,7 +12,7 @@ const ProjectsTypeOne = () => {
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <SectionTitle
-                                title="<span>Our Gallery </span>Photo"
+                                title="<span>Our Employee </span>Gallery"
                                 content="<p> Lorem ipsum dolor sit amet, pellentesque enim lorem quis vivamus amet.</p>"
                             />
                         </div>

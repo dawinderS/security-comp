@@ -20,7 +20,7 @@
         {
           "id": 3.1,
           "text": "Service 1",
-          "link": "/services-1"
+          "link": "/our-services"
         },
         {
           "id": 3.2,
@@ -47,7 +47,7 @@
         {
           "id": 2.1,
           "text": "project 3 column",
-          "link": "/projects-1"
+          "link": "/request-a-quote"
         },
         {
           "id": 2.2,

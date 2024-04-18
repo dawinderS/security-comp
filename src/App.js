@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import ServicesTwo from "./pages/services/ServicesTwo";
 import ServiceDetailsTwo from "./pages/details-page/service-details/ServiceDetailsTwo";
@@ -24,11 +24,11 @@ function App() {
             <ScrollToTop/>
             <Routes>
                 <Route exact path='/' element={<Home/>}/>
-                <Route exact path={'/services-1'} element={<ServicesOne/>}/>
+                <Route exact path={'/our-services'} element={<ServicesOne/>}/>
                 <Route exact path={'/services-2'} element={<ServicesTwo/>}/>
                 <Route exact path={'/service-details/:id'} element={<ServiceDetailsOne/>}/>
                 <Route exact path={'/service-details-two/:id'} element={<ServiceDetailsTwo/>}/>
-                <Route exact path={'/projects-1'} element={<ProjectsOne/>}/>
+                <Route exact path={'/request-a-quote'} element={<ProjectsOne/>}/>
                 <Route exact path={'/projects-2'} element={<ProjectsTwo/>}/>
                 <Route exact path={'/project-details/:id'} element={<ProjectDetails/>}/>
                 <Route exact path={'/blogs-1'} element={<BlogOne/>}/>
@@ -38,6 +38,7 @@ function App() {
                 <Route exact path={'/employees'} element={<TeamMembersPage/>}/>
                 <Route exact path={'/contact-us'} element={<ContactUs/>}/>
                 <Route exact path={'/about'} element={<AboutUsPage/>}/>
+                <Route path='*' element={<Navigate to='/' />} />
             </Routes>
         </Router>
     </>

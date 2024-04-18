@@ -18,10 +18,10 @@ const Testimonial = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <TestimonialSectionTitle
-                            subTitle="What's say about our client"
-                            title="<span>Client</span> Review"
+                            subTitle="Your satisfaction is our priority"
+                            title="<span>Client</span> Reviews"
                             content="<p>Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim, tellus tincidunt tellus est sed enim varius enim, tellus tincidunt tellus est sed</p>"
-                            btnText="See All"
+                            // btnText="Get a Quote"
                             btnLink="/"
                             />
                         </div>

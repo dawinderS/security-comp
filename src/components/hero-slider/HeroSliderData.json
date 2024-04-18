@@ -2,22 +2,22 @@
   {
     "id": 1,
     "image": "slide1.jpg",
-    "title": "Grow Up your business more <span> secure</span>",
-    "content": "Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec. Nam vel eu amet, nisl imperdiet nec ad morbi, sodales ipsum, consequat purus vitae integer maecenas.",
-    "btnTextOne": "CONTACT US",
-    "btnLinkOne": "/",
-    "btnTextTwo": "READ MORE",
-    "btnLinkTwo": "/"
+    "title": "<span> Top-rated</span> security guard services in <span>California</span>",
+    "content": "Regency Security Group is your trusted provider of tailored and dependable security guard services. With statewide coverage, we prioritize quality, reliability, and quick response.",
+    "btnTextOne": "OUR SERVICES",
+    "btnLinkOne": "/our-services",
+    "btnTextTwo": "GET A QUOTE",
+    "btnLinkTwo": "/request-a-quote"
   },
   {
     "id": 2,
     "image": "slide2.jpg",
-    "title": "We Provide <span>Verified & Secured</span> Service for company",
-    "content": "Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec. Nam vel eu amet, nisl imperdiet nec ad morbi, sodales ipsum, consequat purus vitae integer maecenas.",
-    "btnTextOne": "CONTACT US",
-    "btnLinkOne": "/",
-    "btnTextTwo": "READ MORE",
-    "btnLinkTwo": "/"
+    "title": "The service you <span>Expect</span>. The respect you <span>Deserve</span>.",
+    "content": "We are a reputable security service with extensive experience and a variety of services. We provide skilled, highly trained and reliable security guards at reasonable prices.",
+    "btnTextOne": "OUR SERVICES",
+    "btnLinkOne": "/our-services",
+    "btnTextTwo": "GET A QUOTE",
+    "btnLinkTwo": "/request-a-quote"
   }
 
 ]
