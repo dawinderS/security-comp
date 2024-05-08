@@ -2282,6 +2282,16 @@ footer {
 	top: 0;
 	right: 0;
 }
+
+.appointment-form > h2 > a{
+  color: #fff;
+  border-bottom: 2px solid #fab909;
+  padding-bottom: 7px;
+}
+.appointment-form > h2 > a:hover {
+  color: #fab909;
+  border-bottom: 2px solid #fff;
+}
 .appointment-form::before {
 	background-color: #020e2a;
 	content: "";
@@ -2296,8 +2306,10 @@ footer {
 .appointment-form  fieldset {
 	margin-left: -15px;
 }
-.appoitment-area .appointment-form .sngl-field {margin-bottom: 30px;
-	margin-top: 0;}
+.appoitment-area .appointment-form .sngl-field {
+  margin-bottom: 30px;
+	margin-top: 0;
+}
 .appoitment-area .appointment-form .sngl-field input {
 	width: 100%;
 	padding: 10px 0;
@@ -2307,14 +2319,16 @@ footer {
 	font-weight: 600;
 	background: none;
 }
+
 .appoitment-area .appointment-form .sngl-field textarea {
 	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 	color: #ddd;
 	border-radius: 0;
 	font-weight: 600;
 	margin-top: -15px;
 	width: 100%;
-	padding: 10px 0;
+	padding: 15px 0;
 	background: none;
 }
 .appoitment-area .appointment-form .sngl-field select {
@@ -2346,40 +2360,46 @@ footer {
 	top: 10px;
 }
 .appoitment-area .appointment-form .sngl-field input[type="text"]::-webkit-input-placeholder {
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 .appoitment-area .appointment-form .sngl-field input[type="email"]::-webkit-input-placeholder {
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 .appoitment-area .appointment-form .sngl-field textarea::-webkit-input-placeholder {
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 
 .appoitment-area .appointment-form .sngl-field option::-webkit-input-placeholder {
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 
 .appoitment-area .appointment-form .sngl-field input[type="text"]::-moz-placeholder{
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 .appoitment-area .appointment-form .sngl-field input[type="email"]::-moz-placeholder{
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 .appoitment-area .appointment-form .sngl-field textarea::-moz-placeholder{
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 
 .appoitment-area .appointment-form .sngl-field option::-moz-placeholder{
-	color:#ddd;opacity:1
+	color:#ddd;opacity:0.5
 }
 
 
 
-.appointment-form  h2, .company-openingtime h2 {
+.company-openingtime h2 {
 	font-size: 18px;
 	text-transform: uppercase;
-	color:#fab909}
-
+	color:#fab909
+}
+.appointment-form h2 {
+  font-size: 20px;
+	text-transform: uppercase;
+	color:#fab909;
+  padding-bottom: 10px;
+}
 /*
 22.Patner Section
 ======================*/

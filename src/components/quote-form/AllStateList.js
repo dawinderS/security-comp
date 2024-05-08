@@ -1,6 +1,6 @@
 import React from 'react';
 
-const AllCountryList = () => {
+const AllStateList = () => {
     return (
       <>
         <option value="Multi">Multi-States</option>
@@ -59,4 +59,4 @@ const AllCountryList = () => {
     );
 };
 
-export default AllCountryList;
+export default AllStateList;

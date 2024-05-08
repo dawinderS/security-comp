@@ -2,11 +2,12 @@ import React, {useState} from 'react';
 import emailjs from "emailjs-com";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import AllCountryList from "./AllCountryList";
+import AllStateList from "./AllStateList";
+import ServiceList from "./ServicesList";
 
 const QuoteForm = () => {
-    const [selectedDate, setSelectedDate] = useState();
-    const [startDate, setStartDate] = useState();
+    // const [selectedDate, setSelectedDate] = useState();
+    // const [startDate, setStartDate] = useState();
 
     const [result, setResult] = useState(false);
     const sendEmail = (e) => {
@@ -30,7 +31,9 @@ const QuoteForm = () => {
     return (
       <>
         <div className="appointment-form">
-          <h2>Request A Quote</h2>
+          <h2>
+            Request A Quote Or <a href="tel:+18058142049">Call Us Now</a>
+          </h2>
           <form action="" onSubmit={sendEmail}>
             <fieldset>
               <div className="row">
@@ -59,8 +62,9 @@ const QuoteForm = () => {
                     <input
                       placeholder="Phone"
                       name="tel"
-                      type="text"
-                      required
+                      type="tel"
+                      pattern="[0-9]{10}"
+                      // required
                     />
                   </div>
                 </div>
@@ -98,12 +102,12 @@ const QuoteForm = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div className="sngl-field">
                     <div className="select-arrow">
-                      <select name="location">
-                        <option disabled hidden selected>
-                          Select One
+                      <select name="states">
+                        <option value="" disabled selected hidden>
+                          State(s)
                         </option>
                         {/* <option selected="" >State(s)</option> */}
-                        <AllCountryList />
+                        <AllStateList />
                       </select>
                     </div>
                   </div>
@@ -112,20 +116,25 @@ const QuoteForm = () => {
                   <div className="sngl-field">
                     <div className="select-arrow">
                       <select name="location">
-                        <option selected="">Type of location</option>
-                        <AllCountryList />
+                        <option value="" disabled selected hidden>
+                          Type of services
+                        </option>
+                        <ServiceList />
                       </select>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="sngl-field">
-                    <textarea placeholder="Message" name="message" />
+                    <textarea
+                      placeholder="Provide any additional details, describe the security challenges you are currently facing, etc"
+                      name="message"
+                    />
                   </div>
                 </div>
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="filed-submitbtn">
-                    <input value="submit Message" type="submit" />
+                    <input value="Get Your Free Quote Today" type="submit" />
                   </div>
                 </div>
               </div>
