@@ -28,33 +28,48 @@ const QuoteForm = () => {
     };
 
     return (
-        <>
-            <div className="appointment-form">
-                <h2>Get A Quote</h2>
-                <form action="" onSubmit={sendEmail}>
-                    <fieldset>
-                     <div className="row">
-                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                             <div className="sngl-field">
-                                 <input placeholder="Name" name="name" type="text" required />
-                             </div>
-                         </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                             <div className="sngl-field">
-                                 <input
-                                     placeholder="E-mail"
-                                     name="email"
-                                     type="email"
-                                     required
-                                 />
-                             </div>
-                         </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                             <div className="sngl-field">
-                                 <input placeholder="Phone" name="tel" type="text" />
-                             </div>
-                         </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+      <>
+        <div className="appointment-form">
+          <h2>Request A Quote</h2>
+          <form action="" onSubmit={sendEmail}>
+            <fieldset>
+              <div className="row">
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div className="sngl-field">
+                    <input
+                      placeholder="Name"
+                      name="name"
+                      type="text"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div className="sngl-field">
+                    <input
+                      placeholder="Email"
+                      name="email"
+                      type="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div className="sngl-field">
+                    <input
+                      placeholder="Phone"
+                      name="tel"
+                      type="text"
+                      required
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div className="sngl-field">
+                    <input placeholder="Company" name="company" type="text" />
+                  </div>
+                </div>
+                {/* <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                              <div className="sngl-field">
                                  <DatePicker
                                      placeholderText="Select Your Date"
@@ -64,8 +79,8 @@ const QuoteForm = () => {
                                      name="date"
                                  />
                              </div>
-                         </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                         </div> */}
+                {/* <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                              <div className="sngl-field">
                                  <DatePicker
                                      placeholderText="Select Your Time"
@@ -79,39 +94,51 @@ const QuoteForm = () => {
                                      name="time"
                                  />
                              </div>
-                         </div>
-                         <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                             <div className="sngl-field">
-                                 <div className="select-arrow">
-                                     <select name="location">
-                                         <option selected="" >Type of location</option>
-                                         <AllCountryList/>
-                                     </select>
-                                 </div>
-                             </div>
-                         </div>
-                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                             <div className="sngl-field">
-                            <textarea
-                                placeholder="Message"
-                                name="message"
-                            />
-                             </div>
-                         </div>
-                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                             <div className="filed-submitbtn">
-                                 <input
-                                     value="submit Message"
-                                     type="submit"
-                                 />
-                             </div>
-                         </div>
-                     </div>
-                    </fieldset>
-                    { result ? <div className="success-send-msg">Your message has been sent successfully. We will contact you shortly.</div>  : null }
-                </form>
-            </div>
-        </>
+                         </div> */}
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div className="sngl-field">
+                    <div className="select-arrow">
+                      <select name="location">
+                        <option disabled hidden selected>
+                          Select One
+                        </option>
+                        {/* <option selected="" >State(s)</option> */}
+                        <AllCountryList />
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div className="sngl-field">
+                    <div className="select-arrow">
+                      <select name="location">
+                        <option selected="">Type of location</option>
+                        <AllCountryList />
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div className="sngl-field">
+                    <textarea placeholder="Message" name="message" />
+                  </div>
+                </div>
+                <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                  <div className="filed-submitbtn">
+                    <input value="submit Message" type="submit" />
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            {result ? (
+              <div className="success-send-msg">
+                Your message has been sent successfully. We will contact you
+                shortly.
+              </div>
+            ) : null}
+          </form>
+        </div>
+      </>
     );
 };
 

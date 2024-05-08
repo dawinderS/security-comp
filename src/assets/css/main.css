@@ -518,7 +518,7 @@ textarea:focus, input:focus{
 }
 
 .slider-overlay {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.3);
 	height: 100%;  width: 100%;
 	position: absolute;
 	top: 0;
@@ -531,7 +531,7 @@ textarea:focus, input:focus{
 	height: 100%;
 	background-repeat: no-repeat;
 	position: relative;
-	height: 600px;
+	height: 800px;
 }
 .slider-text {
 	left: 0;

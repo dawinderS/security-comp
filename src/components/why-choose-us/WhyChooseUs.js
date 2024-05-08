@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
         <>
             {/* Why Choose Us Start */}
             <div className="why-choose why-choos-bg"
-                 style={{ backgroundImage:`url(/images/why-choose-bg.jpg)` }}
+                 style={{ backgroundImage:`url(/images/why-choose-bg1.jpg)` }}
             >
                 <div className="container">
                     <div className="row">

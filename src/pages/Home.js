@@ -24,9 +24,9 @@ const Home = () => {
         </Helmet>
         <Layout>
           <HeroSlider />
+          <Faq />
           <WhyChooseUs />
           <HomeServices />
-          <Faq />
           <AboutUs />
           <Testimonial />
           <ProjectsTypeOne />

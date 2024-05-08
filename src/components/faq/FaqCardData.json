@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "title": "Can I help 24/7",
+        "title": "24/7 Live Support",
         "icon": "question.png",
-        "content": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim, tellus tincidunt tellus est sed mattis, libero elit mi suscipit."
+        "content": "We understand that security needs don't just occur during business hours. That’s why we offer dedicated 24/7 dispatch services to ensure that all your security concerns are addressed promptly at any time, day or night."
     },
     {
         "id": 2,
-        "title": "Can I refund payment",
+        "title": "Industry Leaders since 2015",
         "icon": "question.png",
-        "content": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim, tellus tincidunt tellus est sed mattis, libero elit mi suscipit."
+        "content": "Founded in 2015, we have established ourselves as leaders in the security industry. Trusted by a diverse clientele, we are renowned for our reliable, high-quality security solutions and commitment to excellence."
     },
     {
         "id": 3,
-        "title": "How many year's experience",
+        "title": "Our Vision and Commitment",
         "icon": "question.png",
-        "content": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim, tellus tincidunt tellus est sed mattis, libero elit mi suscipit."
+        "content": "Our vision is to continue providing the most esteemed and professional security services in the state. We are dedicated to fostering a safe and enjoyable environment at the venues and facilities protected by our services."
     }
 ]

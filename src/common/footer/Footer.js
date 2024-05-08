@@ -15,17 +15,14 @@ const Footer = () => {
                             <div className="col-md-3 col-sm-6">
                                 <div className="footer-wedget-one">
                                     <Link to="/">
-                                        <img src={`/images/logo.png`} alt="Logo" />
+                                        <img src={`/images/logo2-unedited.png`} alt="Logo" />
                                     </Link>
                                     <p>
-                                        Lorem ipsum dolor sit amet, nulla fermentum, mollis ac lectus
-                                        nulla, vel neque, risus non nunc duis lectus, ac id porttitor
-                                        vulputate donec sed.nulla fermentum, mollis ac lectus nulla, vel
-                                        neque
+                                        
                                     </p>
                                     <div className="footer-social-profile">
                                         <ul>
-                                            <li>
+                                            {/* <li>
                                                 <a href="">
                                                     <i className="fa fa-facebook" />
                                                 </a>
@@ -34,10 +31,10 @@ const Footer = () => {
                                                 <a href="">
                                                     <i className="fa fa-twitter" />
                                                 </a>
-                                            </li>
+                                            </li> */}
                                             <li>
                                                 <a href="">
-                                                    <i className="fa fa-pinterest" />
+                                                    <i className="fa fa-yelp" />
                                                 </a>
                                             </li>
                                             <li>
@@ -46,10 +43,10 @@ const Footer = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="">
-                                                    <i className="fa fa-vimeo" />
+                                                <a href="tel:805-814-2049">
+                                                    <i className="fa fa-phone" />
                                                 </a>
-                                            </li>
+                                            </li> 
                                         </ul>
                                     </div>
                                 </div>
@@ -73,23 +70,23 @@ const Footer = () => {
                                 <div className="footer-widget-menu">
                                     <h2>Support links</h2>
                                     <ul>
-                                        <li>
+                                        {/* <li>
                                             <a href="#">support link</a>
                                         </li>
                                         <li>
                                             <a href="#">faq &amp; help center</a>
+                                        </li> */}
+                                        <li>
+                                            <a href="/about">about us</a>
                                         </li>
                                         <li>
-                                            <a href="#">about us</a>
+                                            <a href="/our-services">Our Services</a>
                                         </li>
                                         <li>
-                                            <a href="#">Create Account</a>
+                                            <a href="/contact-us">Contact Us</a>
                                         </li>
                                         <li>
-                                            <a href="#">service and help</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">Contact Us</a>
+                                            <a href="/request-a-quote">Request a Quote</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -107,7 +104,8 @@ const Footer = () => {
                                                 </div>
                                                 <div className="media-body">
                                                   <span className="inner-text">
-                                                    71 Pilgrim Avenue Chevy Chase, MD 20815
+                                                    1262 Evergreen Ln
+                                                    <br></br>Los Angeles, CA 90017
                                                   </span>
                                                 </div>
                                             </div>
