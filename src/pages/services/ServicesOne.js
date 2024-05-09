@@ -1,5 +1,6 @@
 import React from 'react';
 import ServicesTypeOne from '../../components/services/services-one/ServicesTypeOne';
+import ServicesTypeTwo from '../../components/services/services-two/ServicesTypeTwo';
 import servicesData from '../../components/services/services-one/ServicesOneData.json';
 import Layout from '../../common/Layout';
 import Breadcrumb from '../../common/breadcrumb/Breadcrumb';
@@ -9,7 +10,7 @@ const ServicesOne = () => {
   return (
     <>
       <Helmet>
-        <title>Service One | Regency Security Group</title>
+        <title>Our Services | Regency Security Group</title>
         <meta name="description" content="Regency Security Group" />
         <meta
           name="keywords"
@@ -18,17 +19,17 @@ const ServicesOne = () => {
       </Helmet>
       <Layout>
         <Breadcrumb
-          pageTitle="Service Page 1"
+          pageTitle="Our Security Services"
           rootPath="/"
           parentPath="Home"
-          currentPath="Service 1"
+          currentPath="Our Services"
         />
         {/* Service Start */}
         <div className="service-sec pt-100 pb-100">
           <div className="container">
             <div className="row">
               {servicesData.map((item) => (
-                <ServicesTypeOne key={item.id} data={item} />
+                <ServicesTypeTwo key={item.id} data={item} />
               ))}
             </div>
           </div>

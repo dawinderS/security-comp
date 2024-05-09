@@ -1,5 +1,5 @@
 import React from 'react';
-import ServicesTypeOne from "../services/services-one/ServicesTypeOne";
+import ServicesTypeTwo from "../services/services-two/ServicesTypeTwo";
 import serviceData from "../services/services-one/ServicesOneData.json";
 import SectionTitle from "../section-title/SectionTitle";
 
@@ -21,7 +21,7 @@ const HomeServices = () => {
                     <div className="row">
                         {
                             data.map((item) => (
-                                <ServicesTypeOne
+                                <ServicesTypeTwo
                                     key={item.id}
                                     data={item}
                                 />

@@ -2,18 +2,18 @@
   {
     "id": 1,
     "icon": "building.png",
-    "image": "service_details_1.jpg",
+    "image": "g3.jpg",
     "title": "Armed Guards",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
-    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
+    "excerpt": "Our armed private security guards are trained in weapon operation, security systems, surveillance, and emergency response, including CPR.",
+    "details": "<p>Our armed guards are extensively trained and experienced, equipped to handle high-risk situations with precision. Each guard meets strict certifications standards, ensuring they provide the highest level of protection.</p>",
     "btnText": "Continue Reading"
   },
   {
     "id": 2,
     "title": "Unarmed Guards",
     "icon": "surveillance.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g1.jpg",
+    "excerpt": "Our unarmed guards enhance security in low-risk settings and handle conflicts using various tactics, appearing less intimidating to customers and visitors.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
@@ -21,8 +21,8 @@
     "id": 3,
     "title": "Traffic Control",
     "icon": "parking.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g2.jpg",
+    "excerpt": "Uniformed traffic control officers maintain safety and ensure a smooth flow of traffic, equipped with necessary tools for their duties.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
@@ -30,8 +30,8 @@
     "id": 4,
     "title": "Event Security",
     "icon": "resort.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g4.jpg",
+    "excerpt": "Our event security service ensures safety at your venue, maintaining a secure environment for gatherings like concerts and parties.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
@@ -39,8 +39,8 @@
     "id": 5,
     "title": "Executive Protection",
     "icon": "dollar-coins.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g5.jpg",
+    "excerpt": "Our executive security service offers customized protection for individuals or groups, ensuring superior safety and confidentiality at all times.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
@@ -49,17 +49,17 @@
     "id": 6,
     "title": "Crowd Control",
     "icon": "runer-silhouette-running-fast.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g6.jpg",
+    "excerpt": "Our specialized crowd control security service adeptly oversees events like concerts, ensuring attendee safety and orderly conduct.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
   {
     "id": 7,
-    "title": "Patrol Vehicles",
+    "title": "Vehicle Patrol",
     "icon": "parking.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g2.jpg",
+    "excerpt": "Vehicle patrol services boost safety and security, reducing vandalism and theft risks on your premises. Our uniformed guards patrol in marked cars.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
@@ -67,8 +67,8 @@
     "id": 8,
     "title": "CCTV Security",
     "icon": "surveillance.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g6.jpg",
+    "excerpt": "Our CCTV security service ensures vigilant monitoring and response to suspicious activities, maintaining a secure environment.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
@@ -76,8 +76,8 @@
     "id": 9,
     "title": "Fire Watch",
     "icon": "resort.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "image": "g3.jpg",
+    "excerpt": "Our fire watch service safeguards your property. When fire systems are inoperable, a fire watch security guard is legally required.",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   }

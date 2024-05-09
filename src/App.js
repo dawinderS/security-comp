@@ -27,7 +27,7 @@ function App() {
                 <Route exact path={'/our-services'} element={<ServicesOne/>}/>
                 <Route exact path={'/services-2'} element={<ServicesTwo/>}/>
                 <Route exact path={'/service-details/:id'} element={<ServiceDetailsOne/>}/>
-                <Route exact path={'/service-details-two/:id'} element={<ServiceDetailsTwo/>}/>
+                <Route exact path={'/our-services/:id'} element={<ServiceDetailsTwo/>}/>
                 <Route exact path={'/request-a-quote'} element={<ProjectsOne/>}/>
                 <Route exact path={'/projects-2'} element={<ProjectsTwo/>}/>
                 <Route exact path={'/project-details/:id'} element={<ProjectDetails/>}/>
