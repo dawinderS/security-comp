@@ -1,23 +1,30 @@
 [
   {
     "id": 1,
-    "content": "Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec.Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec.",
-    "name": "Robyn Davenport",
+    "content": "Regency Security has been our security partner at our venue for almost a decade, and their commitment to excellence is evident in every interaction. Their teams are not only well-trained but also adept at handling diverse situations with efficiency and professionalism. We rely on Regency Security for the safety and security of our premises, and they consistently deliver beyond our expectations.",
+    "name": "Michael Chen",
     "image": "testimonial0.png",
-    "designation": "Ceo & Founder"
+    "designation": "Venue Director"
   },
   {
     "id": 2,
-    "content": "Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec.Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec.",
-    "name": "Anna Carey",
+    "content": "As a property manager, I prioritize the safety and security of our tenants, and Regency Security has been instrumental in achieving that goal. Their personnel are not only well-trained but also approachable, making them a valuable asset to our community.",
+    "name": "Maria Santos",
+    "image": "testimonial0.png",
+    "designation": "Property Manager"
+  },
+  {
+    "id": 3,
+    "content": "Security at our recent event was outstanding, thanks to the proactive and responsive approach of the Regency Security team. Their staff not only maintained a high level of vigilance but also exhibited a friendly and cooperative attitude throughout. We eagerly anticipate working with them again and consider them our top choice.",
+    "name": "Emily Carey",
     "image": "testimonial0.png",
     "designation": "HR Coordinator"
   },
   {
-    "id": 3,
-    "content": "Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec.Lorem ipsum dolor sit amet, ligula magna at etiam aliquip venenatis. Vitae sit felis donec, suscipit tortor et sapien donec ac nec.",
-    "name": "Tomas Greer",
+    "id": 4,
+    "content": "Since enlisting the services of Regency Security, our retail establishment has experienced a noticeable improvement in safety measures. Their proactive approach to security, coupled with their friendly demeanor, has had a positive impact on both staff morale and customer satisfaction. We appreciate the peace of mind that they provide and look forward to continuing our partnership with them.",
+    "name": "Jason Mitchell",
     "image": "testimonial0.png",
-    "designation": "Owner"
+    "designation": "Facilities Manager"
   }
 ]
