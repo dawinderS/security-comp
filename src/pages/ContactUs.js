@@ -18,7 +18,7 @@ const ContactInfo = [
   {
     title: 'Region',
     // content: 'united states california<br />united states california',
-    content: 'California,<br />United States',
+    content: 'All States,<br />United States',
   },
 ];
 

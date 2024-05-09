@@ -19,7 +19,7 @@ const Topbar = () => {
                     </li>
                     <li>
                       <i className="fa fa-map-marker" />
-                      California, USA
+                      Covering all States
                     </li>
                   </ul>
                 </div>

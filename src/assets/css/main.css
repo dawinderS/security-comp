@@ -2345,9 +2345,11 @@ footer {
 	margin: 0;
 	background: #fab909;
 	border: 0;
-	padding: 12px 40px;
+	padding: 12px 50px;
 	font-weight: 600;
-	color: #fff;transition:all 0.4s ease 0s}
+  text-align: center;
+	color: #fff;transition:all 0.4s ease 0s
+}
 .appoitment-area .appointment-form .filed-submitbtn input[type="submit"]:hover{background:#fff;color:#020e2a;transition:all 0.4s ease 0s}
 .appoitment-area .appointment-form .sngl-field .select-arrow{position:relative}
 
@@ -2395,7 +2397,7 @@ footer {
 	color:#fab909
 }
 .appointment-form h2 {
-  font-size: 20px;
+  font-size: 21px;
 	text-transform: uppercase;
 	color:#fab909;
   padding-bottom: 10px;

@@ -2,14 +2,14 @@
   {
     "id": 1,
     "icon": "customer.png",
-    "title": "24/7 Support",
-    "desc":  "Simply dummy text of the printing andrety esetting industry.Lorem ipsum dolor sit amet, ligula magna at etiam."
+    "title": "Nationwide Security Providers",
+    "desc":  "Regency stands as the premier choice for security services throughout the United States. Boasting an expansive network of offices and partners nationwide, we are uniquely positioned to deliver unparalleled quality and efficiency in service to our clients, ensuring safety and peace of mind across the board."
   },
   {
     "id": 2,
     "icon": "employee.png",
     "title": "Expert Employees",
-    "desc":  "Simply dummy text of the printing andrety esetting industry.Lorem ipsum dolor sit amet, ligula magna at etiam."
+    "desc":  "Regency's team comprises seasoned security professionals, rigorously selected and continuously trained in advanced security methods. Our commitment to excellence ensures that our clients receive superior and responsive security services."
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "id": 4,
     "icon": "lock.png",
     "title": "Secured Service",
-    "desc":  "Simply dummy text of the printing andrety esetting industry.Lorem ipsum dolor sit amet, ligula magna at etiam."
+    "desc":  ""
   }
 ]
