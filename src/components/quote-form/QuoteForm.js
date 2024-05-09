@@ -127,7 +127,7 @@ const QuoteForm = () => {
                 <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <div className="sngl-field">
                     <textarea
-                      placeholder="Provide any additional details, describe the security challenges you are currently facing, etc"
+                      placeholder="Describe any additional details, the service you need, the security challenges you are currently facing, etc..."
                       name="message"
                     />
                   </div>

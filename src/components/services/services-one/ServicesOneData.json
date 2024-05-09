@@ -3,14 +3,14 @@
     "id": 1,
     "icon": "building.png",
     "image": "service_details_1.jpg",
-    "title": "Office Security",
+    "title": "Armed Guards",
     "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
     "btnText": "Continue Reading"
   },
   {
     "id": 2,
-    "title": "CCTV Security",
+    "title": "Unarmed Guards",
     "icon": "surveillance.png",
     "image": "service_details_1.jpg",
     "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
@@ -19,25 +19,7 @@
   },
   {
     "id": 3,
-    "title": "Home Security",
-    "icon": "resort.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
-    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
-    "btnText": "Continue Reading"
-  },
-  {
-    "id": 4,
-    "title": "Bank Security",
-    "icon": "dollar-coins.png",
-    "image": "service_details_1.jpg",
-    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
-    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
-    "btnText": "Continue Reading"
-  },
-  {
-    "id": 5,
-    "title": "Bank Security",
+    "title": "Traffic Control",
     "icon": "parking.png",
     "image": "service_details_1.jpg",
     "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
@@ -45,9 +27,55 @@
     "btnText": "Continue Reading"
   },
   {
+    "id": 4,
+    "title": "Event Security",
+    "icon": "resort.png",
+    "image": "service_details_1.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
+    "btnText": "Continue Reading"
+  },
+  {
+    "id": 5,
+    "title": "Executive Protection",
+    "icon": "dollar-coins.png",
+    "image": "service_details_1.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
+    "btnText": "Continue Reading"
+  },
+
+  {
     "id": 6,
-    "title": "Man Security",
+    "title": "Crowd Control",
     "icon": "runer-silhouette-running-fast.png",
+    "image": "service_details_1.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
+    "btnText": "Continue Reading"
+  },
+  {
+    "id": 7,
+    "title": "Patrol Vehicles",
+    "icon": "parking.png",
+    "image": "service_details_1.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
+    "btnText": "Continue Reading"
+  },
+  {
+    "id": 8,
+    "title": "CCTV Security",
+    "icon": "surveillance.png",
+    "image": "service_details_1.jpg",
+    "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
+    "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
+    "btnText": "Continue Reading"
+  },
+  {
+    "id": 9,
+    "title": "Fire Watch",
+    "icon": "resort.png",
     "image": "service_details_1.jpg",
     "excerpt": "Lorem ipsum dolor sit amet, luctus posuere semper felis consectetuer hendrerit, enim varius enim",
     "details": "<p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing, in et at turpis et porta.</p><p>Lorem ipsum dolor sit amet, accumsan et ad rhoncus in ridiculus risus, orci integer sed aliquam praesent, aliquam in vulputate metus. Pellentesque dignissim auctor nibh vel vestibulum, tempor sed id ut faucibus. Quam vulputate adipiscing. Mauris penatibus vestibulum nec nulla pharetra non, ac eget faucibus id turpis malesuada, urna eget, nam adipiscing.</p>",
