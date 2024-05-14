@@ -19,7 +19,7 @@ const ServicesOne = () => {
       </Helmet>
       <Layout>
         <Breadcrumb
-          pageTitle="Our Security Services"
+          pageTitle="Our Services"
           rootPath="/"
           parentPath="Home"
           currentPath="Our Services"

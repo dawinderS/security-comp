@@ -15,6 +15,7 @@ import ScrollToTop from "./common/ScrollToTop";
 import TeamMembersPage from "./pages/TeamMembersPage";
 import BlogWithSidebar from "./pages/blogs/BlogWithSidebar";
 import ContactUs from "./pages/ContactUs";
+import RequestQuote from './pages/RequestQuote';
 import AboutUsPage from "./pages/AboutUsPage";
 
 function App() {
@@ -25,10 +26,10 @@ function App() {
             <Routes>
                 <Route exact path='/' element={<Home/>}/>
                 <Route exact path={'/our-services'} element={<ServicesOne/>}/>
-                <Route exact path={'/services-2'} element={<ServicesTwo/>}/>
-                <Route exact path={'/service-details/:id'} element={<ServiceDetailsOne/>}/>
+                {/* <Route exact path={'/services-2'} element={<ServicesTwo/>}/> */}
+                {/* <Route exact path={'/service-details/:id'} element={<ServiceDetailsOne/>}/> */}
                 <Route exact path={'/our-services/:id'} element={<ServiceDetailsTwo/>}/>
-                <Route exact path={'/request-a-quote'} element={<ProjectsOne/>}/>
+                <Route exact path={'/request-a-quote'} element={<RequestQuote/>}/>
                 <Route exact path={'/projects-2'} element={<ProjectsTwo/>}/>
                 <Route exact path={'/project-details/:id'} element={<ProjectDetails/>}/>
                 <Route exact path={'/blogs-1'} element={<BlogOne/>}/>
