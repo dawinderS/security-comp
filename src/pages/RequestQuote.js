@@ -49,20 +49,68 @@ const RequestQuote = () => {
           <div className="images-overlay" />
           <div className="container">
             <div className="row">
-              <div className="col-md-6 col-sm-6 col-xs-12">
-                <div className="faq-sec">
+              <div
+                className="col-md-4 col-sm-4 col-xs-12"
+                id="req-quote-sidebar"
+              >
+                <div className="faq-sec2">
+                  <div>
+                    <span>Phone</span>
+                    <p>
+                      <a href="tel:+18058142049">+1 (805) 814-2049</a>
+                    </p>
+                  </div>
+                  <div>
+                    <span>Email</span>
+                    <p>
+                      <a href="mailto: info@regencysecuritygroup.com">
+                        info@regencysecuritygroup.com
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <span>Locations</span>
+                    <p>All States, USA</p>
+                  </div>
+                  <div
+                    className="footer-social-profile"
+                    id="footer-social-quotepage"
+                  >
+                    <ul>
+                      <li>
+                        <a href="">
+                          <i className="fa fa-yelp" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i className="fa fa-google-plus" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="">
+                          <i className="fa fa-linkedin" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="tel:805-814-2049">
+                          <i className="fa fa-phone" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                   {/* {getFaqData.map((item) => (
                     <FaqCard key={item.id} data={item} />
                   ))} */}
                 </div>
               </div>
-              <div className="col-md-6 col-sm-6 col-xs-12">
+              <div className="col-md-8 col-sm-12 col-xs-12">
                 <QuoteForm />
               </div>
             </div>
           </div>
         </div>
-        <div className="contact-page-sec pt-100 pb-100">
+        {/* <div className="contact-page-sec pt-100 pb-100">
           <div className="container">
             <div className="row">
               <div className="col-md-8">
@@ -81,7 +129,7 @@ const RequestQuote = () => {
                           dangerouslySetInnerHTML={{ __html: data.content }}
                         />
 
-                        {/*<span>{data.desc}</span>*/}
+                        <span>{data.desc}</span>
                       </div>
                     </div>
                   </div>
@@ -89,7 +137,7 @@ const RequestQuote = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Contact Page Section End */}
       </Layout>
     </>
