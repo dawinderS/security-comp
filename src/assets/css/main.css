@@ -270,13 +270,13 @@ textarea:focus, input:focus{
 .main-menu ul li ul:hover .main-menu ul li > a{
 	background: #ddd;
 }
-.main-menu ul li a:hover {
+/* .main-menu ul li a:hover {
 	transition : all 0.4s 0s ease;
 	color:#fab909
-}
+} */
 
 .main-menu ul ul {
-	background: #fab909 none repeat scroll 0 0;
+	background: #ffffff none repeat scroll 0 0;
 	left: 0;
 	opacity: 0;
 	position: absolute;
@@ -287,12 +287,22 @@ textarea:focus, input:focus{
 	visibility: hidden;
 	z-index: 99999;
 	top:94px;
+  padding: 10px;
+  border-radius: 5px 20px 5px 20px;
+  margin-top: 8px;
 }
 .main-menu ul ul li {
 	float : none;
-	width : 200px;
+	width : 230px;
 }
+.main-menu ul li a:hover {
+  transition : all 0.4s 0s ease;
+  background: #fab909;
+  /* color: #ffffff; */
+}
+
 .hd-style1 .main-menu > ul > li > a{color:#020e2a}
+.main-menu > ul > li:hover {color:#ffffff}
 .main-menu ul ul li a {
 	padding: 6px 19px;
 	color: #020e2a;
@@ -303,7 +313,7 @@ textarea:focus, input:focus{
 	width:100%
 }
 .main-menu ul ul li a:hover {
-	background:#fff
+	/* background:#fff */
 }
 .main-menu ul ul ul {
 	top : 0;
@@ -1710,7 +1720,7 @@ textarea:focus, input:focus{
 .single-testimonial2 {
 	color: #f4f4f4;
 	text-align: center;
-	padding: 80px;
+	padding: 80px 0px;
 }
 /*testimonial 2*/
 .testimonial2-sec {
@@ -2571,7 +2581,7 @@ Responsive Menu
 }
 .responsive-nav-menu .mobile-nav-menu li ul{
 	display: none;
-	background: #03050b;
+	background: #040712;
 }
 .responsive-nav-menu .mobile-nav-menu li:hover ul{
 	display: block;

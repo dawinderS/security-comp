@@ -5,7 +5,7 @@ const FooterServiceNav = ({data}) => {
     return (
         <>
             <li>
-                <Link to={`/service-details/${data.id}`}>{data.title}</Link>
+                <Link to={`/our-services/${data.id}`}>{data.title}</Link>
             </li>
         </>
     );

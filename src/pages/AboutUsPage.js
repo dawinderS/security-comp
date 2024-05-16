@@ -20,14 +20,14 @@ const AboutUsPage = () => {
         </Helmet>
         <Layout>
           <Breadcrumb
-            pageTitle="About Us Page"
+            pageTitle="About Us"
             rootPath="/"
             parentPath="Home"
             currentPath="About Us"
           />
           <AboutUs />
           <Testimonial />
-          <TeamMembers />
+          {/* <TeamMembers /> */}
           <ClientLogo />
         </Layout>
       </>

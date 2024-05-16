@@ -12,7 +12,7 @@ const Testimonial = () => {
       <>
         {/* Testimonial Section Start */}
         <div
-          className="testimonial-sec pt-100 pb-100"
+          className="testimonial-sec pt-100"
           style={{ backgroundImage: `url(/images/testimonial_bg.jpg)` }}
         >
           <div className="container">

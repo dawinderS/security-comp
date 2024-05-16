@@ -56,7 +56,7 @@ const Footer = () => {
                 </div>
                 <div className="col-md-3 col-sm-6">
                   <div className="footer-widget-menu">
-                    <h2>Service links</h2>
+                    <h2>Security Services</h2>
                     <ul>
                       {serviceData.map((item) => (
                         <FooterServiceNav key={item.id} data={item} />

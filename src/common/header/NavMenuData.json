@@ -19,23 +19,54 @@
       "dropdown": [
         {
           "id": 3.1,
-          "text": "Service 1",
+          "text": "All Services",
           "link": "/our-services"
         },
         {
           "id": 3.2,
-          "text": "services 2",
-          "link": "/services-2"
+          "text": "Armed Guards",
+          "link": "/our-services/1"
         },
         {
           "id": 3.3,
-          "text": "Service details 1",
-          "link": "/service-details/1"
+          "text": "Unarmed Guards",
+          "link": "/our-services/2"
         },
         {
           "id": 3.4,
-          "text": "Service details 2",
-          "link": "/our-services/2"
+          "text": "Traffic Control",
+          "link": "/our-services/3"
+        },
+        {
+          "id": 3.5,
+          "text": "Event Security",
+          "link": "/our-services/4"
+        },
+
+        {
+          "id": 3.6,
+          "text": "Executive Protection",
+          "link": "/our-services/5"
+        },
+        {
+          "id": 3.7,  
+          "text": "Crowd Control",
+          "link": "/our-services/6"
+        },
+        {
+          "id": 3.8,
+          "text": "Vehicle Patrol",
+          "link": "/our-services/7"
+        },
+        {
+          "id": 3.9,
+          "text": "CCTV Security",
+          "link": "/our-services/8"
+        },
+        {
+          "id": 3.10,
+          "text": "Fire Watch",
+          "link": "/our-services/9"
         }
       ]
     },
@@ -47,7 +78,7 @@
     },
     {
       "id": 7,
-      "text": "Contact us",
+      "text": "Contact Us",
       "link": "/contact-us",
       "dropdown": []
     },

@@ -1,7 +1,9 @@
 import React from 'react';
 import Layout from '../common/Layout';
 import Breadcrumb from '../common/breadcrumb/Breadcrumb';
-import ContactUsForm from '../components/contact-us-form/ContactUsForm';
+// import ContactUsForm from '../components/contact-us-form/ContactUsForm';
+import ClientLogo from '../components/client-logo/ClientLogo';
+import Testimonial from '../components/testimonial/Testimonial';
 import QuoteForm from '../components/quote-form/QuoteForm';
 import { Helmet } from 'react-helmet';
 
@@ -139,6 +141,8 @@ const RequestQuote = () => {
           </div>
         </div> */}
         {/* Contact Page Section End */}
+        <Testimonial />
+        <ClientLogo />
       </Layout>
     </>
   );

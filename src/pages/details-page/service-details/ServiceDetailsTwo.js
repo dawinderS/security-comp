@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import serviceData from '../../../components/services/services-two/ServicesTwoData.json';
+import serviceData from '../../../components/services/services-one/ServicesOneData.json';
 import Layout from '../../../common/Layout';
 import Breadcrumb from '../../../common/breadcrumb/Breadcrumb';
 import ServicesTypeTwo from '../../../components/services/services-two/ServicesTypeTwo';
