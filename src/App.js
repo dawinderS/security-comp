@@ -12,6 +12,7 @@ import BlogDetails from "./pages/details-page/BlogDetails";
 import ProjectsOne from "./pages/projects/ProjectsOne";
 import ProjectsTwo from "./pages/projects/ProjectsTwo";
 import ScrollToTop from "./common/ScrollToTop";
+import StickyPhone from "./common/StickyPhone"
 import TeamMembersPage from "./pages/TeamMembersPage";
 import BlogWithSidebar from "./pages/blogs/BlogWithSidebar";
 import ContactUs from "./pages/ContactUs";
@@ -23,6 +24,7 @@ function App() {
     <>
         <Router>
             <ScrollToTop/>
+            <StickyPhone />
             <Routes>
                 <Route exact path='/' element={<Home/>}/>
                 <Route exact path={'/our-services'} element={<ServicesOne/>}/>

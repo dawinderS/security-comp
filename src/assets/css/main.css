@@ -154,6 +154,34 @@ textarea:focus, input:focus{
 	color: #020e2a;
 	margin-top: -4px;
 }
+#sticky-page-phone {
+  background: #fab909 none repeat scroll 0 0;
+	border-radius: 100% 100% 30% 100%;
+  color: #fff;
+	bottom: 40%;
+  right: 15px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+	text-decoration: none;
+  font-size: 28px;
+	position: fixed;
+	z-index: 999;
+}
+#sticky-page-phone:hover{
+  /* background: #fff; */
+  font-size: 31px;
+}
+#sticky-page-phone i {
+  color: #fff;
+  font-weight: bolder;
+  display: inline-block;
+  margin-top: 13px;
+  margin-left: 3px;
+}
+#sticky-page-phone:hover i{
+  color: #020e2a;
+}
 
 /*
 3.header Section
