@@ -40,7 +40,7 @@ const QuoteForm = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div className="sngl-field">
                     <input
-                      placeholder="Name"
+                      placeholder="Name *"
                       name="name"
                       type="text"
                       required
@@ -50,7 +50,7 @@ const QuoteForm = () => {
                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div className="sngl-field">
                     <input
-                      placeholder="Email"
+                      placeholder="Email *"
                       name="email"
                       type="email"
                       required
@@ -63,7 +63,7 @@ const QuoteForm = () => {
                       placeholder="Phone"
                       name="tel"
                       type="tel"
-                      pattern="[0-9]{10}"
+                      // pattern="[0-9]{10}"
                       // required
                     />
                   </div>
@@ -141,7 +141,7 @@ const QuoteForm = () => {
             </fieldset>
             {result ? (
               <div className="success-send-msg">
-                Your message has been sent successfully. We will contact you
+                Your request has been sent successfully. We will contact you
                 shortly.
               </div>
             ) : null}

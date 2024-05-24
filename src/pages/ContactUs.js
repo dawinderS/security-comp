@@ -35,7 +35,7 @@ const ContactUs = () => {
       </Helmet>
       <Layout>
         <Breadcrumb
-          pageTitle="Contact page"
+          pageTitle="Contact Us"
           rootPath="/"
           parentPath="Home"
           currentPath="Contact Us"
@@ -46,7 +46,7 @@ const ContactUs = () => {
             <div className="row">
               <div className="col-md-8">
                 <div className="contact-field">
-                  <h2>Write Your Message</h2>
+                  <h2>Let's have a chat</h2>
                   <ContactUsForm />
                 </div>
               </div>

@@ -2,13 +2,16 @@ import React from "react";
 import {Link} from "react-router-dom";
 import FooterServiceNav from "./FooterServiceNav";
 import serviceData from "../../components/services/services-one/ServicesOneData.json";
-
+import Testimonial from "../../components/testimonial/Testimonial";
+import ClientLogo from "../../components/client-logo/ClientLogo";
 const Footer = () => {
     return (
       <>
         {/* footer Section Start */}
         <footer>
           {/* footer Top Section Start */}
+          <Testimonial />
+          <ClientLogo />
           <div className="footer-sec">
             <div className="container">
               <div className="row">

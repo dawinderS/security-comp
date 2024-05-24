@@ -141,8 +141,6 @@ const RequestQuote = () => {
           </div>
         </div> */}
         {/* Contact Page Section End */}
-        <Testimonial />
-        <ClientLogo />
       </Layout>
     </>
   );

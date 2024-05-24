@@ -18,7 +18,7 @@ const ServiceDetailsTwo = () => {
   return (
     <>
       <Helmet>
-        <title>{service.title}</title>
+        <title>{service.title} | Regency Security Group</title>
         <meta name="description" content="Regency Security Group" />
         <meta
           name="keywords"
@@ -135,7 +135,6 @@ const ServiceDetailsTwo = () => {
         </div>
         {/* Service End */}
         {/* All Patner Section Start */}
-        <ClientLogo />
         {/* All Patner Section End */}
       </Layout>
     </>

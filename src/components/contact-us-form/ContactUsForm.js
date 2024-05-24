@@ -30,7 +30,7 @@ const ContactUsForm = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 col-xs-12">
                             <div className="single-input-field">
-                                <input placeholder="First Name" type="text" name="firstname" required/>
+                                <input placeholder="First Name *" type="text" name="firstname" required/>
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-12">
@@ -44,12 +44,12 @@ const ContactUsForm = () => {
                     <div className="row">
                         <div className="col-md-6 col-sm-6 col-xs-12">
                             <div className="single-input-field">
-                                <input placeholder="Phone" type="tel" name="phonenumber"/>
+                                <input placeholder="Your Email *" type="email" name="email" required/>
                             </div>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-12">
                             <div className="single-input-field">
-                                <input placeholder="Your E-mail" type="email" name="email" required/>
+                                <input placeholder="Phone" type="tel" name="phonenumber"/>
                             </div>
                         </div>
                     </div>

@@ -26,9 +26,7 @@ const AboutUsPage = () => {
             currentPath="About Us"
           />
           <AboutUs />
-          <Testimonial />
           {/* <TeamMembers /> */}
-          <ClientLogo />
         </Layout>
       </>
     );

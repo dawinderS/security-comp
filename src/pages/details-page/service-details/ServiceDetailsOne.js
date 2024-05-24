@@ -75,7 +75,6 @@ const ServiceDetailsOne = () => {
         </div>
         {/* Service End */}
         {/* All Patner Section Start */}
-        <ClientLogo />
         {/* All Patner Section End */}
       </Layout>
     </>
