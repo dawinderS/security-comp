@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import HomeServices from "../components/home/HomeServices";
 import Layout from "../common/Layout";
 import AboutUs from "../components/about-us/AboutUs";
@@ -12,6 +12,10 @@ import HeroSlider from "../components/hero-slider/HeroSlider";
 import {Helmet} from "react-helmet";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
     return (
       <>
         <Helmet>

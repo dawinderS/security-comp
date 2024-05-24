@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import serviceData from '../../../components/services/services-one/ServicesOneData.json';
 import Layout from '../../../common/Layout';
@@ -14,6 +14,10 @@ const ServiceDetailsTwo = () => {
   const service = serviceData.filter(
     (service) => service.id === parseInt(id)
   )[0];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

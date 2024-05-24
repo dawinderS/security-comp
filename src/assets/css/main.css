@@ -297,10 +297,10 @@ textarea:focus, input:focus{
   /* text-decoration: underline; */
   background-color: #fab909;
 }
-.hd-style1 .main-menu > ul > li:last-child:hover > a {
-  /* text-decoration: underline; */
+/* .hd-style1 .main-menu > ul > li:last-child:hover > a {
+  text-decoration: underline;
   color: #ffffff;
-}
+} */
 .main-menu ul li a.active{
 	position:relative
 }
@@ -522,6 +522,16 @@ textarea:focus, input:focus{
 	width: 5000px;
 	z-index: -1;
 }
+
+/*careers*/
+
+.careers-placeholder {
+  font-weight: bolder;
+  padding: 40px 20px;
+  background-color: #fab909;
+  border-radius: 10px;
+}
+
 /*service 2*/
 
 .service2-sec {

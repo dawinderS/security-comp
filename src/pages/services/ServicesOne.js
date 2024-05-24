@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ServicesTypeOne from '../../components/services/services-one/ServicesTypeOne';
 import ServicesTypeTwo from '../../components/services/services-two/ServicesTypeTwo';
 import servicesData from '../../components/services/services-one/ServicesOneData.json';
@@ -7,6 +7,10 @@ import Breadcrumb from '../../common/breadcrumb/Breadcrumb';
 import { Helmet } from 'react-helmet';
 
 const ServicesOne = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Helmet>

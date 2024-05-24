@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Layout from '../common/Layout';
 import Breadcrumb from '../common/breadcrumb/Breadcrumb';
 // import ContactUsForm from '../components/contact-us-form/ContactUsForm';
@@ -26,6 +26,10 @@ const ContactInfo = [
 ];
 
 const RequestQuote = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Helmet>
