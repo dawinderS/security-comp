@@ -167,16 +167,16 @@ textarea:focus, input:focus{
   background: #fab909 none repeat scroll 0 0;
 	border-radius: 100% 100% 30% 100%;
   color: #fff;
-  height: 45px;
-  width: 45px;
+  height: 50px;
+  width: 50px;
   text-align: center;
 	text-decoration: none;
   font-size: 28px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 #sticky-page-phone:hover{
-  height: 50px;
-  width: 50px;
+  height: 55px;
+  width: 55px;
   font-size: 31px;
 }
 #sticky-page-phone i {
@@ -193,16 +193,16 @@ textarea:focus, input:focus{
   background: #020e2a none repeat scroll 0 0;
 	border-radius: 100% 30% 100% 100%;
   color: #fff;
-  height: 55px;
-  width: 55px;
+  height: 60px;
+  width: 60px;
   text-align: center;
 	text-decoration: none;
   font-size: 28px;
 }
 #sticky-page-quote:hover{
   font-size: 31px;
-  height: 60px;
-  width: 60px;
+  height: 65px;
+  width: 65px;
 }
 #sticky-page-quote i {
   color: #fff;
@@ -321,7 +321,7 @@ textarea:focus, input:focus{
 	display: block;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 34px 16px;
+	padding: 34px 18px;
 	text-decoration: none;
 	text-transform: capitalize;
 	transition: all 0.4s ease 0s;position:relative;
@@ -2409,7 +2409,7 @@ footer {
 	text-transform: capitalize;
 }
 .appoitment-area .images-overlay{
-	background:rgba(255, 255, 255, 0.9)
+	background:rgba(217, 217, 217, 0.9)
 }
 .appointment-form {
 	position: relative;
